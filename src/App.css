@@ -1,0 +1,156 @@
+/* General App Styles */
+.app-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin: 20px 0;
+}
+
+/* HomePage Styles */
+.home-page {
+    padding: 20px;
+}
+
+.home-page .mentor-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home-page .mentor-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-page .mentor-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* MentorPage Styles */
+.mentor-page {
+    padding: 20px;
+}
+
+.mentor-page .mentor-details {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.mentor-page .availability {
+    margin-top: 20px;
+}
+
+.mentor-page .time-slot {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mentor-page .time-slot:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* BookingPage Styles */
+.booking-page {
+    padding: 20px;
+}
+
+.booking-page .time-slots {
+    margin: 20px 0;
+}
+
+.booking-page .time-slot {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-page .time-slot.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.booking-page .cta-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-page .cta-button:hover {
+    background-color: #0056b3;
+}
+
+.booking-page .error {
+    color: red;
+    margin-top: 10px;
+}
+
+/* PaymentPage Styles */
+.payment-page {
+    padding: 20px;
+}
+
+.payment-page h2 {
+    font-size: 2em;
+}
+
+.payment-page .payment-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.payment-page .submit-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-page .submit-button:hover {
+    background-color: #218838;
+}
+
+/* Global Styles */
+button {
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
+}
